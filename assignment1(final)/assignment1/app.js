@@ -32,7 +32,6 @@
 
     function countItems(list) {
       var items = list.split(", ")
-      var modItems = [];
       for (var i = 0;i < items.length;i++) {
         if (!/[A-Za-z]/.test(items[i])) {
           items.splice(i);
